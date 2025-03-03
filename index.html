@@ -3,17 +3,85 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meine Website</title>
+    <title>Hannesbau - Baudienstleistungen und Sanierung</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+            color: #333;
+        }
+        header {
+            background-color: #045a33;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        header img {
+            max-width: 450px; /* Vergrößert das Logo */
+        }
+        main {
+            padding: 20px;
+            text-align: center;
+        }
+        .services {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            margin-top: 30px;
+        }
+        .service {
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            width: 250px;
+        }
+        footer {
+            background-color: #2c5043;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
 </head>
 <body>
-    <header>
-        <h1>Willkommen auf meiner Website!</h1>
-    </header>
-    <main>
-        <p>Dies ist eine einfache statische Website, die mit Vercel gehostet wird.</p>
-    </main>
-    <footer>
-        <p>&copy; 2025 Meine Website</p>
-    </footer>
+
+<header>
+    <img src="logo.png" alt="Hannesbau Logo">
+    <h1>Willkommen bei Hannesbau</h1>
+    <p>Ihr Partner für Baudienstleistungen, Sanierungen, Handwerker und Energieberatung</p>
+</header>
+
+<main>
+    <h2>Unsere Dienstleistungen</h2>
+    <div class="services">
+        <div class="service">
+            <h3>Baudienstleistungen</h3>
+            <p>Wir bieten Ihnen zuverlässige Baudienstleistungen für Neubauten und Renovierungen.</p>
+        </div>
+        <div class="service">
+            <h3>Sanierungen</h3>
+            <p>Professionelle Sanierungen, die Ihre Immobilie aufwerten und ihre Lebensdauer verlängern.</p>
+        </div>
+        <div class="service">
+            <h3>Handwerker</h3>
+            <p>Vermittlung von erfahrenen Handwerkern für alle Bau- und Renovierungsarbeiten.</p>
+        </div>
+        <div class="service">
+            <h3>Energieberatung</h3>
+            <p>Effiziente Lösungen für Ihre Energiebedürfnisse, mit einem Fokus auf Nachhaltigkeit.</p>
+        </div>
+    </div>
+</main>
+
+<footer>
+    <p>&copy; 2025 Hannesbau - Alle Rechte vorbehalten</p>
+</footer>
+
 </body>
 </html>
